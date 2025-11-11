@@ -1,3 +1,45 @@
+# VidTube
+
+Vidtube App from youtube clone App with React js and youtube API
+This project is a youtube clone application that allows users to watch movie of any category people, using the react js and youtube API.
+
+The application is built using React js a popular JavaScript framework for building web applications.
+The youtube API is used to get data from youtube.
+fetch is used to make API requests to the backend.
+The application can be customized and extended to include additional features or functionality.
+The application can be used as a learning resource for those interested in building movie / video applications or similar projects.
+
+## Project Setup
+
+To run this project on your local machine, follow these steps:
+
+Clone the repository using git clone https://github.com/Knackstechdevs/VidTube
+Install dependencies using npm install
+install react-router-dom, lucide-react and moment
+Start the development server using npm run dev
+
+## Features
+
+Users can watch any movie found on youtube video on it for free.
+Users can change to different video category on it.
+To use the application, follow these steps:
+
+just open the link and you are good to go as long as there is network connection available
+
+## Screenshots
+
+App Screenshot
+![alt text](image.png)
+
+App Screenshot
+![alt text](image-1.png)
+
+App Screenshot
+![alt text](image-2.png)
+
+Support
+If you have any questions or comments about this project, feel free to reach out to me via email at Sulaimon Abdulbasit.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

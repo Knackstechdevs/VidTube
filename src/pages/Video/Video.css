@@ -1,7 +1,17 @@
 .play-container {
-    background: #f9f9f9;
-    padding: 20px 2%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 20px 2%;
+  flex-wrap: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width:900px) {
+  .play-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }

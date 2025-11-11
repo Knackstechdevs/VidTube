@@ -1,9 +1,11 @@
 .play-video {
   flex-basis: 69%;
+  padding: 20px;
 }
 
-.play-video video {
+.play-video iframe {
   width: 100%;
+  height: 37vw;
 }
 
 .play-video h3 {
@@ -143,4 +145,25 @@
 .comment-actions span {
   margin-right: 20px;
   color: #5a5a5a;
+}
+
+@media (max-width: 900px) {
+  .play-video {
+    flex: 100%;
+  }
+
+  .play-video iframe {
+    width: 100%;
+    height: 50vw;
+  }
+
+  .video-description {
+    padding-left: 0;
+  }
+
+  .play-video-info span {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
 }

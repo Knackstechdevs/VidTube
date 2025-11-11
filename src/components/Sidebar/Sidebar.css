@@ -10,7 +10,7 @@
 }
 
 .sidebar::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .shortcut-links .icon {
@@ -49,18 +49,30 @@
 }
 
 .small-sidebar {
-    width: 5%
+  width: 5%;
 }
 
 .small-sidebar p {
-    display: none;
+  display: none;
 }
 
 .small-sidebar .subscribed-list h3 {
-    display: none;
+  display: none;
 }
 
 .small-sidebar hr {
-    width: 50%;
-    margin-bottom: 25px;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.side-links.active .icon{
+  padding-bottom: 2px;
+  border-bottom: 3px solid rgb(216, 1, 1);
+}
+
+
+@media (max-width:900px) {
+  .sidebar {
+    display: none;
+  }
 }

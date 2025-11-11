@@ -4,6 +4,7 @@ import { Menu, Search, LayoutPanelTop, Bell } from "lucide-react";
 import Logo_1 from "../../assets/Logo_1.png";
 import User from "../../assets/User.jpeg";
 import Upload from "../../assets/Upload.png";
+import { Link } from "react-router-dom";
 
 const Navbar = ({setSidebar}) => {
   return (
@@ -12,7 +13,7 @@ const Navbar = ({setSidebar}) => {
         <div onClick={()=>setSidebar(prev => prev === false ? true : false)} className="icon">
           <Menu />
         </div>
-        <img className="logo" src={Logo_1} alt="" />
+        <Link to="/"><img className="logo" src={Logo_1} alt="" /></Link>
       </div>
       <div className="nav-middle flex-div">
         <div className="search-box flex-div">
